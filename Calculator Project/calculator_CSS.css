@@ -1,0 +1,100 @@
+#container{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid lightgrey;
+	border-radius: 10px;
+	height: 600px;
+	width: 900px;
+	background-color: lightgrey;
+	margin: auto;
+}
+
+#heading{
+	height: 50px;
+	width: 96%;
+	background-color: black;
+	color: whitesmoke;
+	margin: 20px auto 0px;
+	border-radius: 10px;
+	text-align: center;
+}
+h1{
+	margin: auto;
+}
+
+#screen{
+	height: 120px;
+	width: 96%;
+	background-color: whitesmoke;
+	border-radius: 10px;
+	margin: 20px auto;	
+	color: black;
+	box-sizing: border-box;
+	padding: 2px;
+}
+#screen span h1{
+	text-align: right;
+	margin-top: 80px;
+	font: bolder;
+}
+
+#functions{
+	display: flex;
+	flex-wrap: wrap;
+	height: 400px;
+	width: 96%;
+	margin: 0px auto 4px;
+}
+
+.button{
+	height: 70px;
+	width: 211px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	margin: 2px;
+	border-radius: 2px;
+	padding: 8px;
+	box-sizing: border-box;
+	transition: 0.4s ease-in-out;
+}
+.button:hover{
+	background-color: goldenrod;
+}
+
+.operations{
+	height: 70px;
+	width: 211px;
+	background-color: orangered;
+	color: black;
+	text-align: center;
+	margin: 2px;
+	border-radius: 2px;
+	padding: 8px;
+	box-sizing: border-box;
+	transition: 0.4s ease-in-out;
+}
+.operations:hover{
+	background-color: goldenrod;
+}
+
+.button-zero{
+	height: 70px;
+	width: 424px;
+	background-color: white;
+	color: black;
+	text-align: center;
+	margin: 2px 4px;
+	border-radius: 2px;
+	padding: 8px;
+	box-sizing: border-box;
+	transition: 0.4s ease-in-out;
+}
+.button-zero:hover{
+	background-color: goldenrod;
+}
+
+span b{
+	font-size: 35px;
+}
+
